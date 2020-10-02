@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Simple Page</title>
+</head>
+<body>
+<form name="myForm" onsubmit="return validateForm()" method="post">
+    username: <input type="text" name="fname">
+    password: <input type="text" name="fpassword">
+    <input type="submit" value="SUMBIT">
+</form>
+<script>
+    var name='nstevanoski';
+    var password='everest123';
+    function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    var y = document.forms["myForm"]["fpassword"].value;
+    if (x == 'nstevanoski' && y == 'everest123') {
+    alert("Dobredojdovte");
+  }else
+  {
+    alert("Imate greska vo vaseto username ili password!");
+  }
+}
+</script>
+</body>
+</html>

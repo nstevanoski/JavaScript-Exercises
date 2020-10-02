@@ -1,0 +1,10 @@
+body{
+    margin:0;
+}
+
+#mydiv{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    position: relative;
+}

@@ -1,0 +1,13 @@
+#ramka {
+    width: 600px;
+    height: 600px;
+    background-color:lightgray;
+    border:1px solid black;
+}
+#topce {
+    background: black;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+}

@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>Simple Page</title>
+</head>
+<body>
+    <script>
+    var name='Nikola';
+    var lastName='Stevanoski';
+    var age=11;
+    var sex='Male';
+    var adress='Cando Kuzmanov 60';
+    var city='Rosoman';
+    var email='stevanoskinikolaa@gmail.com';
+    myInformations();
+
+    function myInformations(){
+        console.log("name: ", name);
+        console.log("Last Name: ", lastName);
+        console.log("Age: ", age);
+        console.log("Sex: ", sex);
+        console.log("Adress: ", adress);
+        console.log("City: ", city);
+        console.log("email: ", email);
+
+        if(age<12){
+            alert("Uzivajte vo detstovoto");
+        }else{
+            if(age>12 && age<=18){
+            alert("Vie ste tinejdzer"); 
+            }
+        }
+        if(age>18 && age<=25){
+            alert("Vie imate pomegju 18 i 25 godini");
+        }else{
+            if(age>25 && age<=35){
+                alert("Vie imate pomegju 25 i 35 godini");
+            }
+        }
+        if(age>35 && age<=45){
+            alert("Vie imate pomegju 35 i 45 godini");
+        }else{
+            if(age>45 && age<=55){
+                alert("Vie imate pomegju 45 i 55 godini");
+            }
+        }
+        if(age>55){
+            alert("Vie imate povekje od 55 godini");
+        }
+    }
+    </script>
+</body>
+</html>

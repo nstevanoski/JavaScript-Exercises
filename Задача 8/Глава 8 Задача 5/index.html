@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Задача 8.5</title>
+	</head>
+	<body>
+		<form>
+		<!--Model na avtomobil-->
+			<label for="model">Внесете модел на колата:</label>
+			<input id="model" type="text" name="model"><br>
+		<!--Proizvoditel-->
+			<label for="proizvoditel">Одберете производител:</label>
+			<select name="proizvoditel" id="proizvoditel">
+				<option value="" selected disabled>Избери</option>
+				<option value="audi" name="marka">Audi</option>
+				<option value="bmw" name="marka">BMW</option>
+				<option value="fiat" name="marka">Fiat</option>
+				<option value="peugeot" name="marka">Peugeot</option>
+			  </select><br>
+			  <!--Tip na avto-->
+			  <label for="tip">Тип на автомобил:</label>
+			  <select name="tip" id="tip">
+				<option value="" selected disabled>Избери</option>
+				<option value="karavan">Karavan</option>
+				<option value="kabriolet">Kabriolet</option>
+				<option value="elegant">Elegant</option>
+			  </select><br>
+			<!--Gorivo-->
+			<label for="gorivo">Тип на гориво:</label>
+			  <input name="gorivo" type="radio" value="benzin">Benzin
+			  <input name="gorivo" type="radio" value="dizel">Dizel
+			  <input name="gorivo" type="radio" value="plin">Plin<br>
+			  <!--Sostojba-->
+			  <label for="sostojba">Состојба на автомобил:</label>
+			  <input id="sostojba" type="radio" name="sostojba" value="nov">Nov
+			  <input id="sostojba" type="radio" name="sostojba" value="poloven">Poloven<br>
+			  <!--Mokjnost-->
+			  <label for="mokjnost">Моќност на мотор:</label>
+			  <input id="mokjnost" type="text" name="mokjnost"><br>
+		</form>
+		<button id="prebaruvanje">Пребарувај</button>
+		<script src ='javascript.js'></script> 
+
+		<p id="koli"></p>
+	</body>
+</html>
